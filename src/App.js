@@ -1,10 +1,11 @@
 import React from "react";
+import Events from "./pages/Events";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h2 className="font-bold text-title mt-20">Event UI</h2>
-    </div>
+    <>
+      <Events />
+    </>
   );
 }
 
